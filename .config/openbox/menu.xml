@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+	<menu id="apps-accessories-menu" label="Accessories">
+		<item label="Screen Keyboard">
+			<action name="Execute">
+				<command>onboard</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Calculator">
+			<action name="Execute">
+				<command>xcalc</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Character Map">
+			<action name="Execute">
+				<command>gucharmap</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="XArchiver">
+			<action name="Execute">
+				<command>xarchiver</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="p7zip GUI">
+			<action name="Execute">
+				<command>7zFM</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-editors-menu" label="Editors">
+		<item label="GVim">
+			<action name="Execute">
+				<command>gvim</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+					<wmclass>GVim</wmclass>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Neovim-Qt">
+			<action name="Execute">
+				<command>nvim-qt</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Xed">
+			<action name="Execute">
+				<command>xed</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-programing-menu" label="Programing">
+		<item label="Jupyter QtConsole">
+			<action name="Execute">
+				<command>jupyter-qtconsole</command>
+			</action>
+		</item>
+		<item label="Jupyter Notebook">
+			<action name="Execute">
+				<command>jupyter-notebook</command>
+			</action>
+		</item>
+		<item label="Spyder">
+			<action name="Execute">
+				<command>spyder</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-term-menu" label="Terminals">
+		<item label="Rxvt Unicode">
+			<action name="Execute">
+				<command>urxvt</command>
+			</action>
+		</item>
+		<item label="XTerm">
+			<action name="Execute">
+				<command>xterm</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-net-menu" label="Internet">
+		<item label="Falkon">
+			<action name="Execute">
+				<command>falkon</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Telegram Desktop">
+			<action name="Execute">
+				<command>telegram-desktop</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+        <item label="Xtreme Download Manager">
+			<action name="Execute">
+				<command>xdman</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-office-menu" label="Libre Office">
+		<item label="Libre Office Base">
+			<action name="Execute">
+				<command>libreoffice --base</command>
+			</action>
+		</item>
+		<item label="Libre Office Calc">
+			<action name="Execute">
+				<command>libreoffice --calc</command>
+			</action>
+		</item>
+		<item label="Libre Office Draw">
+			<action name="Execute">
+				<command>libreoffice --draw</command>
+			</action>
+		</item>
+		<item label="Libre Office Impress">
+			<action name="Execute">
+				<command>libreoffice --impress</command>
+			</action>
+		</item>
+		<item label="Libre Office Math">
+			<action name="Execute">
+				<command>libreoffice --math</command>
+			</action>
+		</item>
+		<item label="Libre Office Web">
+			<action name="Execute">
+				<command>libreoffice --web</command>
+			</action>
+		</item>
+		<item label="Libre Office Writer">
+			<action name="Execute">
+				<command>libreoffice --writer</command>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-multimedia-menu" label="Multimedia">
+		<item label="VLC">
+			<action name="Execute">
+				<command>vlc</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Pulse Audio Control">
+			<action name="Execute">
+				<command>pavucontrol</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-fileman-menu" label="File Managers">
+		<item label="Thunar">
+			<action name="Execute">
+				<command>thunar</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Midnight Commander">
+			<action name="Execute">
+				<command>urxvt -e mc</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<item label="Ranger">
+			<action name="Execute">
+				<command>urxvt -e ranger</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="apps-graphics-menu" label="Graphics">
+		<item label="Pick Color">
+			<action name="Execute">
+				<command>pick-colour-picker</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+	</menu>
+	<menu id="system-menu" label="System">
+		<item label="Openbox Key Configuration">
+			<action name="Execute">
+				<execute>obkey</execute>
+			</action>
+		</item>
+		<item label="Openbox Menu Editor">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Openbox Configuration Manager">
+			<action name="Execute">
+				<command>obconf</command>
+				<startupnotify>
+					<enabled>yes</enabled>
+				</startupnotify>
+			</action>
+		</item>
+		<separator/>
+		<item label="Reconfigure Openbox">
+			<action name="Reconfigure"/>
+		</item>
+	</menu>
+	<menu id="root-menu" label="Openbox 3">
+		<separator label="Applications"/>
+		<menu id="apps-accessories-menu"/>
+		<menu id="apps-editors-menu"/>
+		<menu id="apps-graphics-menu"/>
+		<menu id="apps-net-menu"/>
+		<menu id="apps-office-menu"/>
+		<menu id="apps-multimedia-menu"/>
+		<menu id="apps-programing-menu"/>
+		<menu id="apps-term-menu"/>
+		<menu id="apps-fileman-menu"/>
+		<separator label="System"/>
+		<menu id="system-menu"/>
+		<separator/>
+		<item label="Log Out">
+			<action name="Exit">
+				<prompt>yes</prompt>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>

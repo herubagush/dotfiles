@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+icon_noupdt=""
+icon_updt=""
+
+while true; do
+    if [ $(checkupdates 2>/dev/null | wc -l) -gt 0 ]; then
+        echo "$icon_updt";
+        notify-send -u critical 'There are any updates packages'; sleep 300
+    else
+        echo "$icon_noupdt"; sleep 5
+    fi
+done

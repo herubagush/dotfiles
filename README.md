@@ -1,2 +1,2 @@
 # dotfiles
-My own dotfiles what using in my machine
+My own dotfiles that using in my machine
